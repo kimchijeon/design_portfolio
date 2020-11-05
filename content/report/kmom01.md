@@ -6,4 +6,4 @@ Description: Part 1
 Kursmoment 1
 ==================
 
-Vi testar en undersida
+Here I will write my report for KMOM1.

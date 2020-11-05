@@ -1,8 +1,8 @@
 ---
-Logo: image/leaf_256x256.png
-Tagline: My portfolio.
+Logo: image/idea.png
+Tagline: My journey to great web design
 Social:
     - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+      url: https://github.com/kimchijeon/design_portfolio
       icon: github
 ---

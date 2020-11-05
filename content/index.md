@@ -3,11 +3,15 @@ Title: Home
 Description: This is our index page.
 ---
 
-Home page
+Welcome!
 ==========================
 
-The source for this page is in `content/index.md`.
+## This is the start of Jenny's portfolio
 
-This is a sample home page written in markdown with some frontmatter defined.
+Jenny is a museum professional and currently a student in web development at Blekinge Tekniska Högskola.
 
-The pages make up a Anax site for demonstration purpose, it is something to start from.
+This portfolio was started in the Fall semester of 2020 as part of the module <a href="https://dbwebb.se/kurser/design-v3">"Teknisk webbdesign och användbarhet"</a>.
+
+She is looking forward to learn the tools to create great web design!
+
+<img class="headshot" src="%assets_url%/img/headshot.jpg" alt="Headshot photo of Jenny">
