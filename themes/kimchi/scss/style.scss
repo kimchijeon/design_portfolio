@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&family=Permanent+Marker&display=swap');
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import '../../shared/scss/base';
+
+/* Header */
+
+.site-header {
+    flex: 0 0 auto;
+    background-color: $accent-color;
+    color: $font-color;
+    padding: 0 2em;
+}
+
+.title {
+    h1 {
+        font-size: 3em;
+        margin-bottom: 0.3em;
+    }
+}
+
+.site-header a,
+.site-header a:visited {
+    color: $font-color;
+}
+
+/* Main */
+
+.main {
+    flex: 1 0 auto;
+    padding: 2em;
+    max-width: 45%;
+    margin: auto;
+
+    a,
+    a:visited {
+        color: $font-color;
+        font-weight: bold;
+    }
+
+    a:hover {
+        color: $accent-color;
+    }
+
+    ul {
+        text-align: center;
+    }
+}
+
+.flash-img {
+    display: block;
+    margin: auto;
+}
+
+.headshot {
+    padding: 1em;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    text-align: center;
+}
+
+/* Footer */
+
+.site-footer {
+    flex: 0 0 auto;
+    background: $accent-color;
+    color: $font-color;
+    padding: 2em;
+    text-align: center;
+
+    a {
+        color: $base-background-color;
+    }
+
+    a:hover {
+        color: $font-color;
+    }
+
+    p {
+        margin-left: 8%;
+    }
+}
+
+.footer-links {
+    float: right;
+    font-size: 2.5rem;
+}
+
+@import '../../shared/scss/responsive';

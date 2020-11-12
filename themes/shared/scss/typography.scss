@@ -1,0 +1,27 @@
+html,
+body {
+    font-size: 100%;
+}
+
+body {
+    font-family: $main-font-family;
+}
+
+h1 {
+    font-family: $header-font-family;
+}
+
+p,
+ul {
+    font-size: $base-font-size;
+    margin-bottom: $line-spacing;
+    line-height: $base-line-height;
+}
+
+a {
+    text-decoration: none;
+}
+
+figcaption {
+    font-style: italic;
+}
