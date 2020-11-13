@@ -8,13 +8,6 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 /* Header */
 
-.site-header {
-    flex: 0 0 auto;
-    background-color: $accent-color;
-    color: $font-color;
-    padding: 0 2em;
-}
-
 .title {
     h1 {
         font-size: 3em;
@@ -30,11 +23,6 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 /* Main */
 
 .main {
-    flex: 1 0 auto;
-    padding: 2em;
-    max-width: 45%;
-    margin: auto;
-
     a,
     a:visited {
         color: $font-color;
@@ -65,17 +53,12 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 figcaption {
     text-align: center;
+    font-style: italic;
 }
 
 /* Footer */
 
 .site-footer {
-    flex: 0 0 auto;
-    background: $accent-color;
-    color: $font-color;
-    padding: 2em;
-    text-align: center;
-
     a {
         color: $base-background-color;
     }

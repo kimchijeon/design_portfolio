@@ -10,7 +10,6 @@ html {
 html,
 body {
     height: 100%;
-    font-size: 100%;
 }
 
 body {
@@ -19,6 +18,25 @@ body {
     background-color: $base-background-color;
 }
 
+.site-header {
+    flex: 0 0 auto;
+    padding: 0 2em;
+    background-color: $accent-color;
+    color: $font-color;
+}
+
 .main {
+    flex: 1 0 auto;
+    padding: 2em;
     min-height: 40em;
+    max-width: 45%;
+    margin: auto;
+}
+
+.site-footer {
+    flex: 0 0 auto;
+    padding: 2em;
+    background: $accent-color;
+    color: $font-color;
+    text-align: center;
 }
