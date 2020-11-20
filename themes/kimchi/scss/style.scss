@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Permanent+Marker&display=swap');
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/brands';
@@ -9,6 +9,9 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 /* Header */
 
 .title {
+    padding-left: 2.5em;
+    padding-bottom: 2.5em;
+
     h1 {
         font-size: 3em;
         margin-bottom: 0.3em;
@@ -31,6 +34,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
     a:hover {
         color: $accent-color;
+        text-decoration: underline;
     }
 
     ul {
@@ -38,9 +42,10 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
     }
 }
 
-.flash-img {
-    display: block;
-    margin: auto;
+.flash-region {
+    position: absolute;
+    top: 40%;
+    left: 46%;
 }
 
 .headshot {
@@ -77,4 +82,5 @@ figcaption {
     font-size: 2.5rem;
 }
 
+@import '../../shared/scss/report';
 @import '../../shared/scss/responsive';
