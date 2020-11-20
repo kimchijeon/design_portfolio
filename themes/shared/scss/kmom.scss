@@ -1,0 +1,31 @@
+.report-page {
+    display: grid;
+    gap: $line-spacing;
+    grid-template-columns: 15% auto;
+
+    h1 {
+        grid-column: span 2;
+        justify-self: center;
+        margin-bottom: unset;
+    }
+}
+
+.sidebar {
+    p {
+        line-height: 2em;
+    }
+}
+
+.selected {
+    text-decoration: underline;
+}
+
+.content {
+    grid-column: span 1;
+}
+
+.arrow-up {
+    font-size: 1.5em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
