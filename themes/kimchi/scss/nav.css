@@ -20,10 +20,22 @@
 }
 
 #nav {
-    padding-top: 1.5em;
-    padding-bottom: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 2.5em;
     text-align: right;
     font-size: 1.2em;
+    background-color: #52799A;
+    color: black;
+}
+
+#nav a:visited {
+    color: black;
+}
+
+#nav a:hover, #nav-toggle:hover {
+    text-decoration: underline;
+    color: #fffefb;
 }
 
 #nav ul {
@@ -39,11 +51,6 @@
     font-weight: bold;
 }
 
-#nav a:hover, #nav-toggle:hover {
-    text-decoration: underline;
-    color: #fffefb;
-}
-
 #nav-toggle {
     display: none;
 }
@@ -56,6 +63,7 @@
         padding: 0;
     }
     #nav ul {
+        padding-top: 1em;
         padding-bottom: 1em;
     }
     #nav ul li {
