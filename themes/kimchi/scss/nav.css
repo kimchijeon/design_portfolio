@@ -25,17 +25,21 @@
     padding-right: 2.5em;
     text-align: right;
     font-size: 1.2em;
-    background-color: #52799A;
-    color: black;
+    background-color: #3e3e3f;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #faf8f2;
 }
 
 #nav a:visited {
-    color: black;
+    color: #faf8f2;
 }
 
 #nav a:hover, #nav-toggle:hover {
     text-decoration: underline;
-    color: #fffefb;
+    color: #C79800;
 }
 
 #nav ul {
@@ -55,16 +59,29 @@
     display: none;
 }
 
+#session-links {
+    float: left;
+    padding-left: 2%;
+}
+
+#session-links a {
+    margin-left: 7px;
+}
+
+#session-links a:hover {
+    text-decoration: none;
+}
+
 /* Small devices */
 
-@media (max-width: 767px) {
+@media (max-width: 960px) {
     #nav {
         clear: both;
         padding: 0;
     }
     #nav ul {
         padding-top: 1em;
-        padding-bottom: 1em;
+        padding-bottom: 2em;
     }
     #nav ul li {
         display: block;

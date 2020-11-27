@@ -6,10 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass kimchi/scss/style.scss kimchi/css/style.css --no-source-map",
-    "style-min": "sass kimchi/scss/style.scss kimchi/css/style.min.css --no-source-map --style compressed",
-    "watch": "sass kimchi/scss/style.scss kimchi/css/style.css --no-source-map --watch",
-    "watch-min": "sass kimchi/scss/style.scss kimchi/css/style.min.css --no-source-map --style compressed --watch"
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-dark": "sass kimchi/scss/style-dark.scss kimchi/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass kimchi/scss/style-dark.scss kimchi/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass kimchi/scss/style.scss kimchi/css/style.css --no-source-map",
+    "style-light-min": "sass kimchi/scss/style.scss kimchi/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",

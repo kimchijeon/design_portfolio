@@ -14,10 +14,14 @@
     p {
         line-height: 2em;
     }
-}
 
-.selected {
-    text-decoration: underline;
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
 }
 
 .content {
@@ -28,4 +32,8 @@
     font-size: 1.5em;
     margin-left: 3em;
     margin-right: 3em;
+}
+
+.arrow-left {
+    font-size: 1.5em;
 }

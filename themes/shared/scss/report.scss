@@ -16,7 +16,7 @@
     flex-direction: column;
     border: 1px solid $font-color;
     border-radius: 5px;
-    box-shadow: 5px 7px $accent-color;
+    box-shadow: 5px 7px $dark-color;
 
     h2 {
         display: flex;
@@ -40,8 +40,7 @@
     }
 
     a:hover {
-        color: $accent-color;
-        text-decoration: underline;
+        color: $font-color;
     }
 
     p {

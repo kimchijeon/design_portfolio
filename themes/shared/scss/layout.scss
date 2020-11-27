@@ -20,9 +20,10 @@ body {
 
 .site-header {
     flex: 0 0 auto;
-    background-image: url('../../../assets/img/blueblotches.png');
+    align-items: center;
+    background-image: url('../../../assets/img/header_pattern.png');
     background-repeat: repeat;
-    background-color: $accent-color;
+    background-color: $primary-color;
     color: $font-color;
     position: relative;
 }
@@ -40,7 +41,7 @@ body {
 .site-footer {
     flex: 0 0 auto;
     padding: 2em;
-    background: $accent-color;
+    background: $primary-color;
     color: $font-color;
     text-align: center;
 }

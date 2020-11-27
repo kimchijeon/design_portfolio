@@ -17,7 +17,11 @@
         <link rel="canonical" href="{{ current_page.url }}" />
     {% endif %}
 
-    <link rel="stylesheet" href="{{ theme_url }}/css/style.min.css" type="text/css" />
+    {% if config.session.theme == "dark" %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.min.css" type="text/css" />
+    {% else %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style.min.css" type="text/css" />
+    {% endif %}
 </head>
 
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
@@ -39,6 +43,14 @@
                     <a href="{{ page.url }}">{{ page.title }}</a>
                 </li>
                 {% endfor %}
+                <div id="session-links">
+                    {% for session in pages["_meta"].meta.session %}
+                    <a href="{{ session.url }}" title="{{ session.title }}" role="button">
+                        <i class="{{ session.icon }}" aria-hidden="true"></i>
+                        <span class="sr-only">{{ session.title }}</span>
+                    </a>
+                    {% endfor %}
+                </div>
             </ul>
         </div>
         <div class="flash-region">
@@ -53,17 +65,10 @@
     <footer class="site-footer">
         <div class="footer-links">
             <!-- Loads from FontAwesome (themes/shared/css/font-awesome.min.css) -->
-            {% for social in pages["_meta"].meta.social %}
-                <a href="{{ social.url }}" title="{{ social.title }}" role="button">
-                    <i class="{{ social.icon }}" aria-hidden="true"></i>
-                    <span class="sr-only">{{ social.title }}</span>
-                </a>
-            {% endfor %}
-
-            {% for association in pages["_meta"].meta.association %}
-                <a href="{{ association.url }}" title="{{ association.title }}" role="button">
-                    <i class="{{ association.icon }}" aria-hidden="true"></i>
-                    <span class="sr-only">{{ association.title }}</span>
+            {% for footer in pages["_meta"].meta.footer %}
+                <a href="{{ footer.url }}" title="{{ footer.title }}" role="button">
+                    <i class="{{ footer.icon }}" aria-hidden="true"></i>
+                    <span class="sr-only">{{ footer.title }}</span>
                 </a>
             {% endfor %}
         </div>

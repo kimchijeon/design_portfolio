@@ -8,18 +8,19 @@ h1 {
     font-family: $header-font-family;
 }
 
-h2 {
+h2,
+h3,
+h4 {
     margin-bottom: $line-spacing;
-    font-weight: 400;
+}
+
+h2 {
     text-decoration: underline;
+    font-weight: 400;
 }
 
 p {
     font-size: $base-font-size;
     margin-bottom: $line-spacing;
     line-height: $base-line-height;
-}
-
-a {
-    text-decoration: none;
 }

@@ -4,82 +4,20 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/brands';
 @import '../../shared/fontawesome/scss/solid';
 @import '../../shared/fontawesome/scss/regular';
+@import '../../shared/scss/variables';
 @import '../../shared/scss/base';
 
-/* Header */
-
-.title {
-    padding-left: 2.5em;
-    padding-bottom: 2.5em;
-
-    h1 {
-        font-size: 3em;
-        margin-bottom: 0.3em;
-    }
-}
-
-.site-header a,
-.site-header a:visited {
-    color: $font-color;
-}
-
 /* Main */
-
 .main {
     a,
     a:visited {
-        color: $font-color;
+        color: $accent-color;
         font-weight: bold;
     }
 
     a:hover {
-        color: $accent-color;
-        text-decoration: underline;
+        color: $secondary-color;
     }
-
-    ul {
-        text-align: center;
-    }
-}
-
-.flash-region {
-    position: absolute;
-    top: 40%;
-    left: 46%;
-}
-
-.headshot {
-    padding: 1em;
-    display: block;
-    margin: auto;
-    max-width: 100%;
-    height: auto;
-}
-
-figcaption {
-    text-align: center;
-    font-style: italic;
-}
-
-/* Footer */
-
-.site-footer {
-    a {
-        color: $base-background-color;
-    }
-
-    a:hover {
-        color: $font-color;
-    }
-
-    p {
-        margin-left: 8%;
-    }
-}
-
-.footer-links {
-    float: right;
-    font-size: 2.5rem;
 }
 
 @import '../../shared/scss/report';

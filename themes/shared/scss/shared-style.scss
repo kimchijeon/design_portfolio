@@ -1,0 +1,70 @@
+/* Header */
+
+.title {
+    padding-left: 2.5em;
+    padding-bottom: 1px;
+    margin-bottom: 2.5em;
+    width: 30%;
+    min-width: 250px;
+
+    h1 {
+        font-size: 3em;
+        margin-bottom: 0.3em;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.site-header a,
+.site-header a:visited {
+    color: $font-color;
+}
+
+/* Main */
+
+.flash-region {
+    position: absolute;
+    top: 40%;
+    left: 46%;
+}
+
+.headshot {
+    padding: 1em;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
+.screenshot {
+    max-width: 100%;
+}
+
+/* Footer */
+
+.site-footer {
+    a {
+        color: $base-background-color;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $font-color;
+    }
+
+    p {
+        margin-left: 8%;
+    }
+}
+
+.footer-links {
+    float: right;
+    font-size: 2.5rem;
+}
