@@ -26,7 +26,7 @@ Redovisningssida för design
 
 <div class="kmom-box">
     <h2> Kmom04 <a href="report/kmom04"><i class="fas fa-arrow-circle-right"></i></a></h2>
-    <p>Färg. Mer text om detta kursmoment tillkommer...</p>
+    <p>Färg. Olika tekniker för att kombinera färger i färgscheman.</p>
 </div>
 
 <div class="kmom-box">

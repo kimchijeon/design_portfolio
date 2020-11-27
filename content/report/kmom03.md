@@ -10,7 +10,7 @@ Kursmoment 3
     <p>
         <a href="%base_url%/report/kmom01">Kmom01</a></li><br>
         <a href="%base_url%/report/kmom02">Kmom02</a></li><br>
-        <a href="%base_url%/report/kmom03" class="selected">Kmom03</a></li><br>
+        <a href="%base_url%/report/kmom03">Kmom03</a></li><br>
         <a href="%base_url%/report/kmom04">Kmom04</a></li><br>
         <a href="%base_url%/report/kmom05">Kmom05</a></li><br>
         <a href="%base_url%/report/kmom06">Kmom06</a></li><br>
