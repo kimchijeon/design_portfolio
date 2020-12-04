@@ -31,7 +31,7 @@ Redovisningssida för design
 
 <div class="kmom-box">
     <h2> Kmom05 <a href="report/kmom05"><i class="fas fa-arrow-circle-right"></i></a></h2>
-    <p>Bilder. Mer text om detta kursmoment tillkommer...</p>
+    <p>Bilder. Bildformat, responsiva bilder och laddningstider.</p>
 </div>
 
 <div class="kmom-box">
