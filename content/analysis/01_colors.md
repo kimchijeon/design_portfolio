@@ -22,7 +22,7 @@ To quickly be able to find the information about a certain color on the website,
 
 I have also used [Adobe Color](https://color.adobe.com/sv/create/color-wheel) to find complementary colors.
 
-Following the methodology of the article *The Characteristics of Minimalism in Web Design* (Moran 2015), I've decided to assess the colors found in the background, logo, navigational elements, iconography and typography, but not content images. 
+Following the methodology of the article *The Characteristics of Minimalism in Web Design*[^1], I've decided to assess the colors found in the background, logo, navigational elements, iconography and typography, but not content images. 
 
 Results
 -----------------------
@@ -30,7 +30,7 @@ Results
 In this section I will present the findings for each website respectively, focusing on color palette and typography.
 
 ### Media Markt
-<a title="Click for full size" href="%assets_url%/img/mediamarkt_screenshot_201125.png"><img class="screenshot" src="%assets_url%/img/mediamarkt_screenshot_201125.png" alt="Screenshot of Media Markt, 2020-11-25"></a>
+[![Screenshot of Media Markt Webpage, 2020-11-25](%assets_url%/img/mediamarkt_screenshot_201125.png?w=857){.screenshot}](%assets_url%/img/mediamarkt_screenshot_201125.png "Click for full size")
 
 #### Color Palette
 <table style="border-spacing: 4px; border-collapse: separate">
@@ -51,7 +51,7 @@ The overall font family is a sans-serif, but they have used several different ki
 It is safe to assume that the choice of color palette is based on the company's bright red logo. The colors, together with their unique font creates a website that truly captures their brand and identity.
 
 ### Komplett.se
-<a title="Click for full size" href="%assets_url%/img/komplett_screenshot_201125.png"><img class="screenshot" src="%assets_url%/img/komplett_screenshot_201125.png" alt="Screenshot of Komplett.se, 2020-11-25"></a>
+[![Screenshot of Komplett.se Webpage, 2020-11-25](%assets_url%/img/komplett_screenshot_201125.png?w=857){.screenshot}](%assets_url%/img/komplett_screenshot_201125.png "Click for full size")
 
 #### Color Palette
 <table style="border-spacing: 4px; border-collapse: separate">
@@ -72,7 +72,7 @@ Similar to Media Markt, the overall font family is sans-serif with "Roboto" as t
 The use of the yellow color palette is just like Media Markt, based on the company's logo which really helps manifest the brand on their website. The sleek design makes it very suitable for an electronics store that aims to keep up with the latest technology.
 
 ### NetOnNet
-<a title="Click for full size" href="%assets_url%/img/netonnet_screenshot_201125.png"><img class="screenshot" src="%assets_url%/img/netonnet_screenshot_201125.png" alt="Screenshot of NetOnNet, 2020-11-25"></a>
+[![Screenshot of NetOnNet Webpage, 2020-11-25](%assets_url%/img/netonnet_screenshot_201125.png?w=857){.screenshot}](%assets_url%/img/netonnet_screenshot_201125.png "Click for full size")
 
 #### Color Palette
 <table style="border-spacing: 4px; border-collapse: separate">
@@ -104,10 +104,10 @@ The use of red in Media Markt's case, and yellow in Komplett.se's case is unders
 
 Even if NetOnNet does not use these active colors to the same extent, their use of bright red prices signal the same thing ("This product is cheap, ACT NOW!"). The blue and red shades used on the website are also not perfectly complementary, which creates a clash between the two and makes the red prices really pop.
 
-Yellow is also associated with happiness (Beaird & George 2014), which could indicate that Komplett.se wants you to think of their products and the act of shopping as a source of happiness, which would in turn increase their appeal.
+Yellow is also associated with happiness[^2], which could indicate that Komplett.se wants you to think of their products and the act of shopping as a source of happiness, which would in turn increase their appeal.
 
 #### Choice of Fonts
-Since it has been argued that a sans-serif font type is best suited for web purposes (Pearson 2016) it is no surprise that these electronics store websites decided to use it. 
+Since it has been argued that a sans-serif font type is best suited for web purposes[^3] it is no surprise that these electronics store websites decided to use it. 
 
 Not only does it increase the legibility on various screen types (whether the customers can see the information about a product is very important for sales) but sans-serif also creates a modern, contemporary feeling. This suits the profile of an electronics store since they would want their customers to feel like their products are modern and up-to-date.
 
@@ -123,12 +123,10 @@ Appendix
 
 This analysis report was made by Jenny Phan.
 
-References
------------------------
-- Beaird, Jason & George, James. 2014. *The Principles of Beautiful Web Design*. SITEPOINT.
+[^1]: Moran, Kate. 2015. The Characteristics of Minimalism in Web Design. *Nielsen Norman Group*. [https://www.nngroup.com/articles/characteristics-minimalism/](https://www.nngroup.com/articles/characteristics-minimalism/). (2020-11-26)
 
-- Moran, Kate. 2015. The Characteristics of Minimalism in Web Design. *Nielsen Norman Group*. [https://www.nngroup.com/articles/characteristics-minimalism/](https://www.nngroup.com/articles/characteristics-minimalism/). (2020-11-26)
+[^2]: Beaird, Jason & George, James. 2014. *The Principles of Beautiful Web Design*. SITEPOINT.
 
-- Pearson, Chuck. 2016. Typography on the Web. *Medium.com*. [https://medium.com/rareview/typography-on-the-web-4cd494d6b165](https://medium.com/rareview/typography-on-the-web-4cd494d6b165). (2020-11-26)
+[^3]: Pearson, Chuck. 2016. Typography on the Web. *Medium.com*. [https://medium.com/rareview/typography-on-the-web-4cd494d6b165](https://medium.com/rareview/typography-on-the-web-4cd494d6b165). (2020-11-26)
 
-<a class="arrow-left" href="%base_url%/analysis"><i class="fas fa-arrow-circle-left"></i></a>
+<a class="arrow-up" href="?"><i class="fas fa-arrow-circle-up"></i></a>
