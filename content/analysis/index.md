@@ -15,8 +15,8 @@ Analysis reports
 </div>
 
 <div class="kmom-box">
-    <h2> Loading <a href="analysis/02_load"><i class="fas fa-arrow-circle-right"></i></a></h2>
-    <p>Analysis description text coming soon...</p>
+    <h2> Page Speed <a href="analysis/02_load"><i class="fas fa-arrow-circle-right"></i></a></h2>
+    <p>Website page speed and loading time analysis.</p>
 </div>
 
 <div class="kmom-box">
