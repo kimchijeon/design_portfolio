@@ -10,6 +10,10 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 body {
     font-weight: 250;
+
+    strong {
+        font-weight: 700;
+    }
 }
 
 /* Header */
@@ -29,6 +33,7 @@ body {
 .main {
     a,
     a:visited {
+        font-weight: 700;
         color: $primary-color;
     }
 
@@ -66,6 +71,10 @@ body {
     a:hover {
         color: $base-background-color;
     }
+}
+
+th {
+    color: $font-color;
 }
 
 @import '../../shared/scss/responsive';
