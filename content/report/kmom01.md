@@ -8,7 +8,7 @@ Kursmoment 1
 ==================
 <div class="sidebar">
     <p>
-        <a href="%base_url%/report/kmom01">Kmom01</a><br>
+        <a href="%base_url%/report/kmom01"><u>Kmom01</u></a><br>
         <a href="%base_url%/report/kmom02">Kmom02</a><br>
         <a href="%base_url%/report/kmom03">Kmom03</a><br>
         <a href="%base_url%/report/kmom04">Kmom04</a><br>
