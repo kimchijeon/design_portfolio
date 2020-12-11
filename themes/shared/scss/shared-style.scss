@@ -23,7 +23,6 @@
 }
 
 /* Main */
-
 .flash-region {
     position: absolute;
     top: 40%;
@@ -34,21 +33,36 @@
     max-width: 25%;
 }
 
+.home-wrap {
+    display: grid;
+    gap: $line-spacing;
+    grid-template-columns: 50% 50%;
+
+    h1 {
+        grid-column: span 2;
+        margin-bottom: unset;
+    }
+}
+
+.home-text {
+    border-right: 1px solid $line-color;
+    padding-right: $line-spacing;
+}
+
 .headshot {
-    padding: 1em;
     display: block;
     margin: auto;
     max-width: 100%;
     height: auto;
-}
-
-figcaption {
-    text-align: center;
-    font-style: italic;
+    border-radius: 5px;
 }
 
 .screenshot {
     max-width: 100%;
+}
+
+.screenshot:hover {
+    opacity: 0.5;
 }
 
 table {
@@ -63,7 +77,6 @@ td {
 }
 
 th {
-    background-color: $secondary-color;
     color: $base-background-color;
     min-width: 100px;
 }

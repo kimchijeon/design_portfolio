@@ -81,10 +81,11 @@
     }
     #nav ul {
         padding-top: 1em;
-        padding-bottom: 2em;
+        padding-bottom: 3em;
     }
     #nav ul li {
-        display: block;
+        display: flex;
+        justify-content: center;
         margin-left: 0;
         text-align: center;
     }
@@ -92,6 +93,13 @@
         display: block;
         padding: 0.5em 0;
     }
+
+    #session-links {
+        min-width: 375px;
+        flex-direction: row;
+        max-height: 38.4px;
+    }
+
     .js #nav-toggle {
         display: block;
         float: right;

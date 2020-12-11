@@ -57,7 +57,7 @@ body {
     background-color: $foreground-color;
 
     h2 {
-        background-color: $primary-color;
+        background-color: $secondary-color;
         color: $font-color;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
@@ -74,7 +74,16 @@ body {
 }
 
 th {
+    background-color: $secondary-color;
     color: $font-color;
+}
+
+/* Footer */
+
+.site-footer {
+    p {
+        color: $base-background-color;
+    }
 }
 
 @import '../../shared/scss/responsive';

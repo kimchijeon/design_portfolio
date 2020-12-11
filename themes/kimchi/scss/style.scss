@@ -20,5 +20,9 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
     }
 }
 
+th {
+    background-color: $dark-color;
+}
+
 @import '../../shared/scss/report';
 @import '../../shared/scss/responsive';

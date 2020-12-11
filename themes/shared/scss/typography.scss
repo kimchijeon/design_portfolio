@@ -16,10 +16,11 @@ h4 {
 
 h2 {
     text-decoration: underline;
-    font-weight: 400;
 }
 
-p {
+p,
+ul,
+ol {
     font-size: $base-font-size;
     margin-bottom: $line-spacing;
     line-height: $base-line-height;

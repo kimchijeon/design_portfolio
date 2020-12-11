@@ -1,7 +1,7 @@
 .report-page {
     display: grid;
     gap: $line-spacing;
-    grid-template-columns: 15% auto;
+    grid-template-columns: 100px auto;
 
     h1 {
         grid-column: span 2;
@@ -11,6 +11,8 @@
 }
 
 .sidebar {
+    border-right: 1px solid $line-color;
+
     p {
         line-height: 2em;
     }
