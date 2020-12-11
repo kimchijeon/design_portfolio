@@ -43,6 +43,7 @@ Kursmoment 4
     <p>Eftersom jag så långt jag kan vill undvika upprepande kod valde jag att lösa min dark theme med import. Jag uppdaterade min <code>base.scss</code> med en <code>shared-style.scss</code> som innehåller koden som tidigare fanns i <code>style.scss</code>. På så sätt undviker jag upprepning och behöver bara redigera på ett ställe för det som är gemensamt för både light och dark theme. Efter alla imports i <code>style-dark.scss</code> skrev jag dark theme-specifik kod så att det skriver över eventuell style i <code>base.scss</code> som inte passar för dark mode.</p>
 
 <h2>Vilken är din TIL för detta kmom?</h2>
-    <p>Det största TIL:et var att få lära mig färgscheman! Att se klart och tydligt varför vissa färger passar ihop, istället för att "känna" att de gör det (eller inte). Det har gett mig ordentliga verktyg för att välja färg i framtiden. Det var också spännande att upptäcka att dark mode inte bara är en invertering av ett ljust tema. <a href="https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#design">CSS-TRICKS</a> guide till dark mode var verkligen en ögonöppnare!</p>
+    <p>Det största TIL:et var att få lära mig färgscheman! Att se klart och tydligt varför vissa färger passar ihop, istället för att "känna" att de gör det (eller inte). Det har gett mig ordentliga verktyg för att välja färg i framtiden. Det var också spännande att upptäcka att dark mode inte bara är en invertering av ett ljust tema. <a href="https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#design">CSS-TRICKS guide till dark mode</a> var verkligen en ögonöppnare!</p>
 </div>
-<a class="arrow-up" href="?"><i class="fas fa-arrow-circle-up"></i></a>
+
+<a class="arrow-up" href="?" aria-label="Go to top of page"><i class="fas fa-arrow-circle-up"></i></a>

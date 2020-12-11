@@ -38,8 +38,8 @@ Kursmoment 5
 
 <h2>Youtube-klipp i iframe</h2>
     <div class="embed-container">
-        <iframe src="https://www.youtube.com/embed/Fk-4lXLM34g" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/Fk-4lXLM34g" frameborder="0" allowfullscreen title="Music video of Wuthering Heights by Kate Bush></iframe>
     </div>
 </div>
 
-<a class="arrow-up" href="?"><i class="fas fa-arrow-circle-up"></i></a>
+<a class="arrow-up" href="?" aria-label="Go to top of page"><i class="fas fa-arrow-circle-up"></i></a>

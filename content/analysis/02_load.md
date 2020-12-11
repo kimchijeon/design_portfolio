@@ -1,6 +1,6 @@
 ---
 Title: Page Speed Report
-Description: Report for Kmom05
+Description: Analysis for Kmom05
 ---
 Page Speed Analysis
 =======================
@@ -26,7 +26,7 @@ The measurement of the websites' page speed has been done with both [Google Page
 
 Using the Google PageSpeed tool, the performance scoring for both mobile and desktop versions have been noted. Measurements were done three times per webpage to get an average. The scoring is based on a maximum of 100. A scoring of 0-49 is low, 50-89 is medium and 90-100 is high.
 
-Using the Devtools the page speed, number of resources loaded and the total transferred size of the webpage have been noted and compiled into [this Google Sheets document](https://docs.google.com/spreadsheets/d/1WuCjuOo9gMf8OpdqvQ16q3sCCQuSFfdCtAhXtDLhOqQ/edit?usp=sharing). The webpage was measured three times and averages have been calculated.
+Using the Devtools the page speed, number of resources loaded and the total transferred size of the webpage have been noted and compiled into a Google Sheets document. [Check out the raw data](https://docs.google.com/spreadsheets/d/1WuCjuOo9gMf8OpdqvQ16q3sCCQuSFfdCtAhXtDLhOqQ/edit?usp=sharing). The webpage was measured three times and averages have been calculated.
 
 Results
 -----------------------
@@ -353,4 +353,4 @@ This analysis report was made by Jenny Phan.
 
 [^4]: CSS Tricks. A Guide to the Responsive Images Syntax in HTML. *Css-tricks.com*. [https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/). (2020-12-02).
 
-<a class="arrow-up" href="?"><i class="fas fa-arrow-circle-up"></i></a>
+<a class="arrow-up" href="?" aria-label="Go to top of page"><i class="fas fa-arrow-circle-up"></i></a>

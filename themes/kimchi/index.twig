@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html lang="en" class="no-js">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -16,7 +16,7 @@
     {% if current_page %}
         <link rel="canonical" href="{{ current_page.url }}" />
     {% endif %}
-
+    
     {% if config.session.theme == "dark" %}
         <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.min.css" type="text/css" />
     {% else %}
@@ -26,7 +26,7 @@
 
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
     <header class="site-header">
-        <a id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
+        <a id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false">
             <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
             <span class="sr-only">Toggle Menu</span>
         </a>
@@ -43,18 +43,18 @@
                     <a href="{{ page.url }}">{{ page.title }}</a>
                 </li>
                 {% endfor %}
-                <div id="session-links">
+                <li id="session-links">
                     {% for session in pages["_meta"].meta.session %}
                     <a href="{{ session.url }}" title="{{ session.title }}" role="button">
                         <i class="{{ session.icon }}" aria-hidden="true"></i>
                         <span class="sr-only">{{ session.title }}</span>
                     </a>
                     {% endfor %}
-                </div>
+                </li>
             </ul>
         </div>
         <div class="flash-region">
-            <img class="flash-img" src="{{ base_url }}/assets/img/designer_.png"> 
+            <img class="flash-img" src="{{ base_url }}/assets/img/designer_.png" alt="Cartoon image of a designer"> 
         </div>
     </header>
     <div class="main" id="main" role="main">

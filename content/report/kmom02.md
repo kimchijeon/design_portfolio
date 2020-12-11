@@ -40,4 +40,5 @@ Kursmoment 2
 <h2>Vilken är din TIL för detta kursmoment?</h2>
     <p>Mitt TIL är helt enkelt att lära mig förstå SASS. Allt från själva syntax till kompileringen av SASS till CSS, inklusive npm. Jag känner att jag har kläm på det här nu, men vet att det jag har fler SASS verktyg att testa på! Det var också inspirerande att läsa i kursboken och lära mig mycket teori om layout och typografi som jag aldrig tänkt på förr.</p>
 </div>
-<a class="arrow-up" href="?"><i class="fas fa-arrow-circle-up"></i></a>
+
+<a class="arrow-up" href="?" aria-label="Go to top of page"><i class="fas fa-arrow-circle-up"></i></a>

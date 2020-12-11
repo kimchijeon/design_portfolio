@@ -20,8 +20,8 @@ Kursmoment 1
 
 <div class="content">
 <h2>Har du jobbat med ramverk eller andra CMS:er tidigare?</h2>
-    <p>Under min utbildning i museivetenskap hade vi ett grupparbete där vi skulle skapa en webbplats med hjälp av Drupal. Den kan man besöka <a href="http://labben.abm.uu.se/ddh1/musgr2ht16/">här</a>.</p>
-    <p>För några år sedan byggde jag också en webbsida åt min sambos familjeföretag, en redovisningsbyrå i Slovenien. Jag använde mig av ett CMS från deras domänleverantör. Webbsidan finns <a href="https://www.etimon.si/">här</a>.</p>
+    <p>Under min utbildning i museivetenskap hade vi ett grupparbete där vi skulle skapa en webbplats med hjälp av Drupal. <a href="http://labben.abm.uu.se/ddh1/musgr2ht16/">Besök webbplatsen som heter "Det digitala museet"</a>.</p>
+    <p>För några år sedan byggde jag också en webbsida åt min sambos familjeföretag, en redovisningsbyrå i Slovenien. Jag använde mig av ett CMS från deras domänleverantör. <a href="https://www.etimon.si/">Besök etimon.si</a>.</p>
     <p>Annars har jag också fått bygga upp en intranätsida i Sharepoint (Microsoft 365) åt min avdelning när jag jobbade på Nobel Prize Museum.</p>
     
 <h2>Är du bekant med de nya verktygen och teknikerna?</h2>
@@ -39,4 +39,4 @@ Kursmoment 1
     <p>Det var också spännande att läsa om SMACSS eftersom jag själv under htmlphp-kursen insåg att det måste finnas bättre sätt att organisera ens CSS-filer, som lätt kunde bli oöverskådliga till slut.</p>
 </div>
 
-<a class="arrow-up" href="?"><i class="fas fa-arrow-circle-up"></i></a>
+<a class="arrow-up" href="?" aria-label="Go to top of page"><i class="fas fa-arrow-circle-up"></i></a>

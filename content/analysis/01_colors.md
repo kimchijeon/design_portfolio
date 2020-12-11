@@ -43,7 +43,7 @@ In this section I will present the findings for each website respectively, focus
         <td style="height: 50px; width: 50px; background-color: #00ac45">
     </tr>
 </table>
-<br>
+
 Media Markt uses a monochromatic red color palette on a white background. A black accent color is used for text but also the cart button. There is also to a smaller extent a green accent color, which is complementary to the color red and thus creates a contrast for anything the website would like to emphasise.
 
 The overall font family is a sans-serif, but they have used several different kinds of fonts, one including their own font "MMText".
@@ -64,7 +64,7 @@ It is safe to assume that the choice of color palette is based on the company's 
         <td style="height: 50px; width: 50px; background-color: #000000">
     </tr>
 </table>
-<br>
+
 Komplett.se also uses a monochromatic color scheme, but based on their signature color yellow. The background color is white and the accent and text color is black. The word "Komplett" in the logo is however a dark shade of marine blue, but does not seem to be used anywhere else on the website.
 
 Similar to Media Markt, the overall font family is sans-serif with "Roboto" as the main font.
@@ -85,19 +85,19 @@ The use of the yellow color palette is just like Media Markt, based on the compa
         <td style="height: 50px; width: 50px; background-color: #ed1c24">
     </tr>
 </table>
-<br>
+
 NetOnNet differs slightly from the previous websites. A bright grey main background has been chosen, while the content is framed by white backgrounds. They piece this together with a blue monochromatic color palette. This creates a significant contrast with the red accent color used in their logo and for the prices. 
 
-Just like the previous websites, the font family of NetOnNet's website is sans-serif. The main font is "Open Sans". Their promo panels contain headlines using font "RebelHand-Bold", which leans towards a handwritten style. This font is also used for their headings in their [support page](https://support.netonnet.se/hc/sv).
+Just like the previous websites, the font family of NetOnNet's website is sans-serif. The main font is "Open Sans". Their promo panels contain headlines using font "RebelHand-Bold", which leans towards a handwritten style. This font is also used for their headings on the [NetOnNet support page](https://support.netonnet.se/hc/sv).
 
 The use of blue and grey creates are calmer website, as opposed to the bright red and yellow colors of Media Markt and Komplett.se, but this only seem to make the red prices pop out more. This make them seem like good deals, which really suits the company's image of having comparatively low prices.
 
 Analysis
 -----------------------
-#### Monochromatic Color Schemes
+### Monochromatic Color Schemes
 Using a monochromatic color scheme with a bright background on a website with a purpose of presenting many different kinds of products (thus creating many colors on the screen) is a way to avoid the website from appearing too cluttered. Using widely different colors sparingly like this also makes it easier to make anything pop out against the bright background and steers the customer's eyes and actions. All three websites uses this technique.
 
-#### Choice of Color
+### Choice of Color
 The choice of color palette has been in all three cases based on the company's logo. The logo is usually the first thing customers associate the company with, and is thus a great tool to establish identity and familiarity on the company's website.
 
 The use of red in Media Markt's case, and yellow in Komplett.se's case is understandable if you think about the aim of the company - to sell. Both red and yellow are exciting and active colors (Beaird & George 2014). The websites try to inspire (or push) you to act in the form of buying. 
@@ -106,12 +106,12 @@ Even if NetOnNet does not use these active colors to the same extent, their use 
 
 Yellow is also associated with happiness[^2], which could indicate that Komplett.se wants you to think of their products and the act of shopping as a source of happiness, which would in turn increase their appeal.
 
-#### Choice of Fonts
+### Choice of Fonts
 Since it has been argued that a sans-serif font type is best suited for web purposes[^3] it is no surprise that these electronics store websites decided to use it. 
 
 Not only does it increase the legibility on various screen types (whether the customers can see the information about a product is very important for sales) but sans-serif also creates a modern, contemporary feeling. This suits the profile of an electronics store since they would want their customers to feel like their products are modern and up-to-date.
 
-#### Conclusion
+### Conclusion
 It has become really clear to me the effects of the color choices for these three websites, all of which I have been a customer to myself. 
 
 I never consciously realized the way these colors affect my behavior when I visit these websites. Media Markt's almost overwhelming red colors have made me very excited to shop, Komplett.se's sleek yellow and black colors reinforces my idea of their expertise and NetOnNet's use of bright red prices has made me think of them as good deals. 
@@ -129,4 +129,4 @@ This analysis report was made by Jenny Phan.
 
 [^3]: Pearson, Chuck. 2016. Typography on the Web. *Medium.com*. [https://medium.com/rareview/typography-on-the-web-4cd494d6b165](https://medium.com/rareview/typography-on-the-web-4cd494d6b165). (2020-11-26)
 
-<a class="arrow-up" href="?"><i class="fas fa-arrow-circle-up"></i></a>
+<a class="arrow-up" href="?" aria-label="Go to top of page"><i class="fas fa-arrow-circle-up"></i></a>
