@@ -41,5 +41,5 @@ Redovisningssida för design
 
 <div class="kmom-box project">
     <h2> Kmom10 <a href="report/kmom10" aria-label="Go to kmom10 report"><i class="fas fa-arrow-circle-right"></i></a></h2>
-    <p>Här kommer en beskrivning av projektet. Mer text tillkommer...</p>
+    <p>Projektet gick ut på att skapa en personsida för egenföretagaren Bew Gorp som är en webbutvecklare och designer.</p>
 </div>
