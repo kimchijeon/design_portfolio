@@ -26,6 +26,11 @@ ol {
     line-height: $base-line-height;
 }
 
+ul,
+ol {
+    padding-left: $base-font-size * 2;
+}
+
 table {
     margin-bottom: $line-spacing;
 }
