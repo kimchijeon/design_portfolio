@@ -24,3 +24,13 @@ Analysis reports
     <p>Evaluation of the use of design principles on personal websites</p>
 </div>
 
+<div lang="en" class="kmom-box">
+    <h2> Design Trends <a href="analysis/10_design_trends" aria-label="Go to website design trends analysis"><i class="fas fa-arrow-circle-right"></i></a></h2>
+    <p>Evaluation of the current most common website design trends.</p>
+</div>
+
+<div lang="en" class="kmom-box">
+    <h2> Project Analysis <a href="analysis/11_project_analysis" aria-label="Go to design project analysis"><i class="fas fa-arrow-circle-right"></i></a></h2>
+    <p>Evaluation of the design principles of my own project website.</p>
+</div>
+

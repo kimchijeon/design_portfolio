@@ -32,7 +32,7 @@ Results
 -----------------------
 
 ### [Arnaud Beelen](https://www.arnaudbeelen.be/)
-[![Screenshot of Arnaud Beelen's homepage, 2020-12-09](%base_url%/image/arnaudbeelen_screenshot_201209.png?w=857){.screenshot}](%base_url%/image/arnaudbeelen_screenshot_201209.png?w=857 "Click for full size")
+[![Screenshot of Arnaud Beelen's homepage, 2020-12-09](%base_url%/image/arnaudbeelen_screenshot_201209.png?w=857){.screenshot}](%base_url%/image/arnaudbeelen_screenshot_201209.png "Click for full size")
 
 #### Purpose and characteristics
 Arnaud Beelen is a graphic designer based in Brussels.
@@ -64,7 +64,7 @@ Each project page in turn has a similar layout, tying the webpages themselves to
 Here there is a balance between keeping the website unified with layout repetition but with enough distinction between the pages as to make communication clear.
 
 ### [Simon Collison](https://colly.com/)
-[![Screenshot of Simon Collison's homepage, 2020-12-09](%base_url%/image/simoncollison_screenshot_201209.png?w=857){.screenshot}](%base_url%/image/simoncollison_screenshot_201209.png?w=857 "Click for full size")
+[![Screenshot of Simon Collison's homepage, 2020-12-09](%base_url%/image/simoncollison_screenshot_201209.png?w=857){.screenshot}](%base_url%/image/simoncollison_screenshot_201209.png "Click for full size")
 
 #### Purpose and characteristics
 Simon Collison is a graphic, digital and product designer from the UK. He is also a writer, conference speaker and event director.
@@ -90,7 +90,7 @@ The perfectionist layout repetition that created a clearly unified website for B
 Although each webpage of Collison's website is presented very differently, the website is held together mainly by the common color scheme, typography and the recurring use of lines as separators. True, it might not be quite as unified as Beelen's website, but I doubt anyone could argue that Collison's website is not well balanced and held together.
 
 ### [Brian Nathan Hartwell](http://briannathanhartwell.com/)
-[![Screenshot of Brian Nathan Hartwell's homepage, 2020-12-09](%base_url%/image/briannathanhartwell_screenshot_201209.png?w=857){.screenshot}](%base_url%/image/briannathanhartwell_screenshot_201209.png?w=857 "Click for full size")
+[![Screenshot of Brian Nathan Hartwell's homepage, 2020-12-09](%base_url%/image/briannathanhartwell_screenshot_201209.png?w=857){.screenshot}](%base_url%/image/briannathanhartwell_screenshot_201209.png? "Click for full size")
 
 #### Purpose and characteristics
 Brian Nathan Hartwell is an art director, designer and front-end developer.
